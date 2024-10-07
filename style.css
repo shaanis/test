@@ -19,22 +19,20 @@
 }
 .services{
     margin-top: 1px;
-    height: 350px;
+    height: 430px;
     background-color: rgb(217, 201, 201);
 }
 
 .imgcontainer{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-   
+    grid-template-columns: repeat(auto-fit,300px);
+   margin-top: 10px;
     gap: 10px;
-    margin-left: 20px;
-    row-gap: 10px;
-    column-gap: 50px;
+    justify-content: center;
 }
 .imgs{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
 }
 .imgs img{
     width: 100%;
@@ -95,12 +93,18 @@
     /* margin-left: 350px; */
     text-align: center;
 }
+
 @media (max-width:762px) {
     .company, .connection, .about{
         display: none;
     }
     .media{
         width: 100%;
+    }
+    .services{
+       
+        height: 580px;
+        
     }
     .footersec{
         display: flex;
