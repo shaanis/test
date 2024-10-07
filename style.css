@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg{
+    background-image: url('https://img.freepik.com/free-vector/neon-light-background_53876-67235.jpg?t=st=1728281702~exp=1728285302~hmac=9a615420fc34822ae4aa2573371ddebb20f2543aa860a9a273fb0714a7dd398e&w=996');
+    height: 100vh;
+    background-size: cover;
+}
+.heading{
+    margin-left: 80px;
+    margin-top: 130px;
+    font-family: "Oswald", sans-serif;
+    font-size: 70px;
+}
+.btn{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+.footersec{
+    background-color: grey;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 1px;
+    padding: 15px;
+}
+.about{
+    color: white;
+}
+.company a{
+    display: block;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#footer h3{
+    color: rgb(0, 191, 249);
+}
+.connection a{
+  display: flex;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+.media i{
+   margin-right: 10px;
+   color: rgb(54, 54, 239);
+}
+.foot-hover a:hover{
+   color: brown;
+}
+.media i:hover{
+    color: brown;
+}
+.copywrite{
+    margin-top: -30px;
+    font-size: 15px;
+    margin-left: 350px;
+}
