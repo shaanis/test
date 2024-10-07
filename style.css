@@ -20,14 +20,17 @@
 .services{
     margin-top: 1px;
     height: 350px;
-    background-color: rgb(188, 23, 23);
+    background-color: rgb(217, 201, 201);
 }
 
 .imgcontainer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+   
     gap: 10px;
     margin-left: 20px;
+    row-gap: 10px;
+    column-gap: 50px;
 }
 .imgs{
     width: 100px;
@@ -55,7 +58,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-top: 1px;
-    padding: 15px;
+    padding: 55px;
 }
 .about{
     color: white;
@@ -89,5 +92,26 @@
 .copywrite{
     margin-top: -30px;
     font-size: 15px;
-    margin-left: 350px;
+    /* margin-left: 350px; */
+    text-align: center;
+}
+@media (max-width:762px) {
+    .company, .connection, .about{
+        display: none;
+    }
+    .media{
+        width: 100%;
+    }
+    .footersec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgcontainer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       
+        gap: 10px;
+        margin-left: 20px;
+    }
 }
