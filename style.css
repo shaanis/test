@@ -29,6 +29,7 @@
    margin-top: 10px;
     gap: 10px;
     justify-content: center;
+    padding: 10px;
 }
 .imgs{
     width: 200px;
@@ -41,15 +42,18 @@
 .design{
     display: none;
     font-size: 12px;
-    margin-top: -40px;
-    margin-left: 20px;
+    margin-top: -145px;
+   
     color: yellow;
+    text-align: center;
 }
-.imgs:hover{
-  .design{
+.imgs:hover .design{
+  
     display: block;
-  }
 }
+.imgs:hover img{
+    filter: grayscale(1) brightness(0.4);
+  }
 .footersec{
     background-color: grey;
     height: 300px;
