@@ -20,7 +20,7 @@
 .services{
     margin-top: 1px;
     height: 430px;
-    background-color: rgb(217, 201, 201);
+    background-color: rgb(52, 39, 72);
 }
 
 .imgcontainer{
@@ -53,6 +53,7 @@
 }
 .imgs:hover img{
     filter: grayscale(1) brightness(0.4);
+    transition: 3s;
   }
 .footersec{
     background-color: grey;
